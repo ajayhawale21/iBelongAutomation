@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="10" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-14T09:28:43 IST" name="Suite" finished-at="2023-01-14T09:29:22 IST" duration-ms="39677">
+    <groups>
+      <group name="iBelong">
+        <method signature="OverviewPageTest.TotalCards()[pri:3, instance:Test.OverviewPageTest@3270d194]" name="TotalCards" class="Test.OverviewPageTest"/>
+      </group> <!-- iBelong -->
+    </groups>
+    <test started-at="2023-01-14T09:28:43 IST" name="Test1" finished-at="2023-01-14T09:29:22 IST" duration-ms="39677">
+      <class name="Test.OverviewPageTest">
+        <test-method is-config="true" signature="objectInitiate()[pri:0, instance:Test.OverviewPageTest@3270d194]" started-at="2023-01-14T09:28:43 IST" name="objectInitiate" finished-at="2023-01-14T09:28:43 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectInitiate -->
+        <test-method signature="displayingCards()[pri:0, instance:Test.OverviewPageTest@3270d194]" started-at="2023-01-14T09:28:43 IST" name="displayingCards" finished-at="2023-01-14T09:28:58 IST" duration-ms="14912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayingCards -->
+        <test-method signature="selectingCalender()[pri:1, instance:Test.OverviewPageTest@3270d194]" started-at="2023-01-14T09:28:58 IST" name="selectingCalender" finished-at="2023-01-14T09:28:59 IST" duration-ms="1361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectingCalender -->
+        <test-method signature="DisplaySuperad()[pri:2, instance:Test.OverviewPageTest@3270d194]" started-at="2023-01-14T09:28:59 IST" name="DisplaySuperad" finished-at="2023-01-14T09:29:00 IST" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisplaySuperad -->
+        <test-method signature="TotalCards()[pri:3, instance:Test.OverviewPageTest@3270d194]" started-at="2023-01-14T09:29:00 IST" name="TotalCards" finished-at="2023-01-14T09:29:00 IST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TotalCards -->
+        <test-method signature="EventsModule()[pri:4, instance:Test.OverviewPageTest@3270d194]" started-at="2023-01-14T09:29:00 IST" name="EventsModule" finished-at="2023-01-14T09:29:00 IST" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EventsModule -->
+      </class> <!-- Test.OverviewPageTest -->
+      <class name="Test.EventsPageTest">
+        <test-method is-config="true" signature="initilization()[pri:0, instance:Test.EventsPageTest@4c583ecf]" started-at="2023-01-14T09:28:32 IST" name="initilization" finished-at="2023-01-14T09:28:43 IST" duration-ms="10981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method is-config="true" signature="objectInitiate()[pri:0, instance:Test.EventsPageTest@4c583ecf]" started-at="2023-01-14T09:29:00 IST" name="objectInitiate" finished-at="2023-01-14T09:29:00 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectInitiate -->
+        <test-method signature="DisplayEventsCount()[pri:5, instance:Test.EventsPageTest@4c583ecf]" started-at="2023-01-14T09:29:00 IST" name="DisplayEventsCount" depends-on-groups="iBelong" finished-at="2023-01-14T09:29:02 IST" duration-ms="1873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DisplayEventsCount -->
+        <test-method signature="AddingEvents()[pri:6, instance:Test.EventsPageTest@4c583ecf]" started-at="2023-01-14T09:29:02 IST" name="AddingEvents" finished-at="2023-01-14T09:29:22 IST" duration-ms="20157" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Enter name of the event']"}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-91HRFE0', ip: '20.0.6.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [290877f25fdc1834bcee5bf2d88003cd, findElement {using=xpath, value=//input[@placeholder='Enter name of the event']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\BRIGOS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56692}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56692/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 290877f25fdc1834bcee5bf2d88003cd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Enter name of the event']"}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-91HRFE0', ip: '20.0.6.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [290877f25fdc1834bcee5bf2d88003cd, findElement {using=xpath, value=//input[@placeholder='Enter name of the event']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\BRIGOS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56692}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56692/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 290877f25fdc1834bcee5bf2d88003cd
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at PageOrder.EventsPage.AddEventName(EventsPage.java:87)
+at Test.EventsPageTest.AddingEvents(EventsPageTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingEvents -->
+      </class> <!-- Test.EventsPageTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
